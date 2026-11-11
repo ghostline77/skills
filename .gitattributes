@@ -1,0 +1,72 @@
+# Normalize detected text to LF in the repository and working tree.
+* text=auto eol=lf
+
+# Windows command scripts require CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Media, models, archives and native game resources are binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.dds binary
+*.wav binary
+*.wem binary
+*.mp3 binary
+*.flac binary
+*.ogg binary
+*.mp4 binary
+*.webm binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.bin binary
+*.glb binary
+*.fbx binary
+*.npy binary
+*.npz binary
+*.pt binary
+*.pth binary
+*.safetensors binary
+*.onnx binary
+*.archive binary
+*.ent binary
+*.app binary
+*.mesh binary
+*.rig binary
+*.anims binary
+*.animgraph binary
+*.morphtarget binary
+*.facialsetup binary
+*.hp binary
+*.xbm binary
+*.texarray binary
+*.mi binary
+*.mt binary
+*.mlsetup binary
+*.mltemplate binary
+*.mlmask binary
+*.scene binary
+*.scenerid binary
+*.quest binary
+*.questphase binary
+*.journal binary
+*.streamingsector binary
+*.streamingblock binary
+*.workspot binary
+*.inkwidget binary
+*.inkatlas binary
+*.inkstyle binary
+*.inkanim binary
+*.inkfontfamily binary
+*.fnt binary
+*.curveset binary
+*.effect binary
+*.particle binary
+*.phys binary
+*.physicalscene binary
+*.env binary
+*.envparam binary
